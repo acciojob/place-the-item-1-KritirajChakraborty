@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.holder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap : wrap;
+	gap: 5px;
+}
+
+.holder span {
+	width: 100px;
+	height: 100px;
+	backgroun-color: green;
+	color: black;
+}
+
+.item-1 {
+	order: 2;
+}
+.item-2 {
+	order: 1;
+}
+.item-3 {
+	order: -1;
+}
